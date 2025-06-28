@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Meu Balanço</string>
+    <string name="add_transaction">Adicionar Transação</string>
+    <string name="edit_transaction">Editar Transação</string>
+    <string name="reports">Relatórios</string>''
+    <string name="income">Receitas: %s</string>
+    <string name="incomeRB">Receita</string>
+    <string name="expense">Despesas: %s</string>
+    <string name="expenseRB">Despesa</string>
+    <string name="balance">Saldo: %s</string>
+    <string name="value">Valor</string>]
+    <string name="type">Tipo</string>]
+    <string name="date">Data</string>]
+    <string name="valorExemplo">R$ 0,00</string>]
+    <string name="category">Categoria</string>]
+    <string name="description">Descrição</string>
+    <string name="add_categoryDescription">Adicionar categoria</string>
+    <string name="save">Salvar</string>]
+    <string name="cancel">Cancelar</string>]
+
+</resources>
