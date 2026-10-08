@@ -1,17 +1,61 @@
-# Meu Balanço - Controle Financeiro Pessoal  
+# Meu Balanço - Aplicativo de Controle Financeiro Pessoal  
 
-## Descrição do Projeto  
-Aplicativo Android para gerenciamento de receitas e despesas, desenvolvido em **Java** com:  
-- Armazenamento local (**Room Database**)  
-- Interface Material Design  
-- Relatório de Saldo  
+![Android](https://img.shields.io/badge/Platform-Android-green.svg)
+![Java](https://img.shields.io/badge/Language-Java_11-orange.svg)
+![Architecture](https://img.shields.io/badge/Architecture-MVVM-blue.svg)
+![Database](https://img.shields.io/badge/Database-Room_SQLite-lightgrey.svg)
+![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
-## Autores  
-- **Pedro Lucas Cassiano Martins**  
-- *Turma B - PDM - CEUB*  
+## Descrição do Projeto
+**Meu Balanço** é um aplicativo Android focado no gerenciamento financeiro pessoal simplificado, prático e intuitivo. Projetado para estudantes, jovens profissionais, autônomos e famílias, o aplicativo permite registrar e categorizar receitas e despesas com total privacidade e persistência de dados offline.
+
+- Armazenamento local (**Room Database**)
+- Interface Material Design
+- Relatório de Saldo
+
+---
+
+## Recursos Principais
+
+- **Gestão de Transações:** Cadastro, listagem e edição rápida de receitas e despesas.
+- **Categorização:** Organização de lançamentos por categorias (alimentação, salário, freelances, etc.).
+- **Relatórios Financeiros:** Visualização consolidada de totais de receitas, despesas e saldo líquido disponível.
+- **Privacidade & Segurança:** Dados armazenados 100% de forma local no dispositivo através do Room Database.
+- **Interface Moderna:** Design responsivo e adaptável construído sobre as diretrizes do Material Design.
+- **Protótipo Interativo no Figma:** [Acessar Design no Figma](https://www.figma.com/design/jqvhNvl8NR8APuQBnc2Ucu/Meu-Balan%C3%A7o?node-id=10-83&t=QCK2cL59THQfwJew-1)
+---
+
+## Fluxo de Navegação (User Flow)
+
+O aplicativo foi projetado garantindo uma navegação fluida entre os principais fluxos de gerenciamento e relatórios[cite: 11, 14]:
+
+![User Flow UX](.\assets\images\User_Flow_UX_(Meu_Balanço).jpg)
+
+---
+
+## Capturas de Tela (Screenshots)
+
+| Listagem de Transações | Adicionar Transação | Relatórios Financeiros | Edição de Transação |
+| :---: | :---: | :---: | :---: |
+| ![Home](.\assets\images\home.png) | ![Adicionar Transacao](.\assets\images\adicionar.png) | ![Relatorio](.\assets\images\relatorio.png) | ![Edicao de Transacao](.\assets\images\editar.png) |
+
+---
+
+## Arquitetura e Tecnologias
+
+O projeto foi construído utilizando as melhores práticas da engenharia de software Android:
+
+- **Linguagem:** Java 11
+- **Arquitetura:** MVVM (Model-View-ViewModel com LiveData)
+- **Persistência de Dados:** Room Database (SQLite local)
+- **Interface Gráfica:** XML Layouts com Material Design Components
+- **Build System:** Gradle
+- **Ambiente de Testes:** Android Studio Hedgehog / Emulador API 33 & Dispositivo Físico
+
+---
 
 ## Instruções de Instalação  
-**Requisitos**:  
+**Pré-Requisitos**:  
    - Android Studio Hedgehog (2023.1.1+)  
    - Dispositivo/emulador com Android 6.0+
    - Pelo menos 30mb de espaço livre
@@ -66,3 +110,22 @@ Acesse o link do APK no Google Drive:
 **11. Notificações**
     
 	O usuário é notificado ao cadastrar transações
+
+
+## Documentação Acadêmica (PI3)
+
+Este projeto integra as atividades do Projeto Integrador III (PI3) do curso de Análise e Desenvolvimento de Software do Centro Universitário de Brasília (CEUB).
+
+    Docente Responsável: Prof. Ricardo Neiva
+
+    Evidências de Entrega: Artefatos interativos, protótipos de alta fidelidade e fluxos funcionais para validação extensionista (ACE).   
+
+## Autor
+
+**Pedro Lucas Cassiano Martins**
+
+- Matrícula: 72451202
+
+- GitHub: @PedroLucasCM
+
+- Curso: Análise e Desenvolvimento de Software — CEUB
