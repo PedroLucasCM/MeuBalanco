@@ -13,6 +13,8 @@
 - Interface Material Design
 - Relatório de Saldo
 
+- **Protótipo Interativo no Figma:** [Acessar Design no Figma](https://www.figma.com/design/jqvhNvl8NR8APuQBnc2Ucu/Meu-Balan%C3%A7o?node-id=10-83&t=QCK2cL59THQfwJew-1)
+
 ---
 
 ## Recursos Principais
@@ -22,14 +24,14 @@
 - **Relatórios Financeiros:** Visualização consolidada de totais de receitas, despesas e saldo líquido disponível.
 - **Privacidade & Segurança:** Dados armazenados 100% de forma local no dispositivo através do Room Database.
 - **Interface Moderna:** Design responsivo e adaptável construído sobre as diretrizes do Material Design.
-- **Protótipo Interativo no Figma:** [Acessar Design no Figma](https://www.figma.com/design/jqvhNvl8NR8APuQBnc2Ucu/Meu-Balan%C3%A7o?node-id=10-83&t=QCK2cL59THQfwJew-1)
+
 ---
 
 ## Fluxo de Navegação (User Flow)
 
-O aplicativo foi projetado garantindo uma navegação fluida entre os principais fluxos de gerenciamento e relatórios[cite: 11, 14]:
+O aplicativo foi projetado garantindo uma navegação fluida entre os principais fluxos de gerenciamento e relatórios:
 
-![User Flow UX](.\assets\images\User_Flow_UX_(Meu_Balanço).jpg)
+![User Flow UX](https://github.com/PedroLucasCM/MeuBalanco/blob/readme.md/assets/images/User_Flow_UX_(Meu_Balanço).jpg?raw=true)
 
 ---
 
@@ -37,7 +39,7 @@ O aplicativo foi projetado garantindo uma navegação fluida entre os principais
 
 | Listagem de Transações | Adicionar Transação | Relatórios Financeiros | Edição de Transação |
 | :---: | :---: | :---: | :---: |
-| ![Home](.\assets\images\home.png) | ![Adicionar Transacao](.\assets\images\adicionar.png) | ![Relatorio](.\assets\images\relatorio.png) | ![Edicao de Transacao](.\assets\images\editar.png) |
+| ![Home](https://github.com/PedroLucasCM/MeuBalanco/blob/readme.md/assets/images/home.png?raw=true) | ![Adicionar Transacao](https://github.com/PedroLucasCM/MeuBalanco/blob/readme.md/assets/images/adicionar.png?raw=true) | ![Relatorio](https://github.com/PedroLucasCM/MeuBalanco/blob/readme.md/assets/images/relatorio.png?raw=true) | ![Edicao de Transacao](https://github.com/PedroLucasCM/MeuBalanco/blob/readme.md/assets/images/editar.png?raw=true) |
 
 ---
 
